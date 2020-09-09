@@ -3916,3 +3916,14 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms)
 
 
+Started POST "/posts" for 75.130.106.182 at 2020-09-09 14:34:57 +0000
+Cannot render console from 75.130.106.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aIyuqvkIuIUEZxswUIlqmojU3kqecTM5qqzbJLCezPln1/c5xMd996It3E0RgT22KVCrzIoseEBj4nW3+hI1OA==", "post"=>{"title"=>"One", "description"=>"Three"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "One"], ["description", "Three"], ["created_at", "2020-09-09 14:34:57.357532"], ["updated_at", "2020-09-09 14:34:57.357532"]]
+  [1m[35m (24.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://159.89.235.135:39836/posts/19
+Completed 302 Found in 27ms (ActiveRecord: 24.6ms)
+
+
