@@ -3831,3 +3831,6 @@ Processing by PostsController#new as HTML
   Rendering posts/new.html.erb within layouts/application
   Rendered posts/_form.html.erb (15.6ms)
   Rendered posts/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 555ms (Views: 545.6ms | ActiveRecord: 0.6ms)
+
+
